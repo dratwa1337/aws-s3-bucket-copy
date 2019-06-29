@@ -8,7 +8,7 @@ Simple python script which let you copy objects from one bucket to another while
 * S3 buckets created (both source and destination bucket)
 
 # Usage
-If you already have AWS profile configured on your local system, simply provide the profile name in the following line:
+If you already have AWS profile configured on your local system, simply provide the profile name in the following line:  
 `aws = boto3.Session(profile_name='')`
 
 or you can pass Access Key/Secret Access Key with region directly to the script:
