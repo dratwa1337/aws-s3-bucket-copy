@@ -12,7 +12,7 @@ s3 = aws.client('s3')
 
 # Fill in source and destination bucket
 s3_bucket_src = ""
-s3_bucket_dest = "
+s3_bucket_dest = ""
 
 paginator = s3.get_paginator('list_objects')
 pages = paginator.paginate(Bucket=s3_bucket_src)
