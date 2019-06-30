@@ -26,4 +26,4 @@ s3_bucket_src = ""
 s3_bucket_dest = ""
 ```
 
-After that just simply run the script: `python3 s3.py`
+After that just simply run the script: `./s3.py`
