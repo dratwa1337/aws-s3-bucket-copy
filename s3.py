@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import boto3
 
 # Use whatever you have configured
